@@ -1,0 +1,101 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-image: url("https://media.istockphoto.com/vectors/black-wide-technology-background-vector-id1144627661?k=20&m=1144627661&s=170667a&w=0&h=ZXSu_u-c2FFgJ2wZ1q5QuFIvNqpnPJ7y_-9HO8x1-ck=");
+  background-size: cover;
+}
+
+input{
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  margin: 0 auto;
+  padding: 1.75rem 2rem;
+  border-radius: 0.2rem;
+  background-color: rgb(255, 255, 255);
+  width: 30%;
+  display: block;
+  font-size: larger;
+  text-align: center;
+}
+label{
+  font-size: larger;
+}
+#title{
+  padding: 1px;
+  background-color: rgb(209, 192, 190);
+  font-size: 50px;
+  color: black;
+  border: 5px solid black;
+}
+
+#blurb {
+  background-color: rgba(255, 255, 255, 0.386);
+  text-align: center;
+  margin: 1em auto 1em auto;
+  width: 500px;
+  padding: .5em;
+  border-radius: 5px;
+}
+
+#visual-title {
+  font-weight: bold;
+  font-size: 1.2em;
+  padding-bottom: .5em;
+}
+
+#array-visual {
+  margin: 1em;
+  color: antiquewhite;
+}
+
+
+
+
+button {
+  margin-top: 1em;
+  background: black;
+  border-radius: 999px;
+  box-shadow: violet 0 10px 30px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  border: 0;
+}
+button:hover{
+  transform:scale(1.2,1.2);
+}
+
+rect:hover, circle:hover, text.circle:hover, text.rect:hover {
+  cursor: pointer;
+}
+
+.subtext {
+  font-size: .8em;
+  font-weight: 400;
+}
+
+.svg-container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  vertical-align: top;
+  overflow: hidden;
+}
+
+.svg-content-responsive {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
